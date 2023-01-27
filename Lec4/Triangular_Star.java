@@ -18,7 +18,7 @@ public class Triangular_Star {
         while(j<=i){
             System.out.print("*");
             j++;
-
+            // start++;
         }
         System.out.println();
         i++;
