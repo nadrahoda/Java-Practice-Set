@@ -16,8 +16,8 @@ public class Reverse_Number {
     
     int i =1;
     while(i<=n){
-        int j = i;
-        while(j>=1){
+        int j = i; // if i is iterating once column will be 1 if 2 then column is 2
+        while(j>=1){ // here we are taking value upto 1, 1 is min value.
             System.out.print(j);
             j--;
         }
