@@ -16,7 +16,7 @@ public class Triangle_Number {
             int j=1;
             int start=i;
             while(j<=i){
-                System.out.print(start);
+                System.out.print(start); 
                 j++;
             }
             System.out.println();

@@ -19,7 +19,7 @@ public class Triangular_Pattern1 {
         int start=i;
         while(j<=i){
             
-            System.out.print(start);
+            System.out.print(start); //col+row-1
             start++;
             j++;
            
