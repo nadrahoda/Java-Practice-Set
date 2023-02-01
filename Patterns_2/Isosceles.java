@@ -17,20 +17,26 @@ public static void main(String[] args) {
     
     int i=1;
     while(i<=n){
+        // spaces
         int j =1;
         while(j<=n-i){
             System.out.print(" ");
             j++;
 
         }
+
+        // increasing numbers
         j=1;
-        int p=1;// increasing numbers
+        int p=1;
         while(j<=i){
             System.out.print(p);
             p++;
             j++;
             }
-            p=1; //decreasing numbers
+
+        //decreasing numbers
+            p=i-1; 
+            j=1;
             while(j<=i-1){
                 System.out.print(p);
                 p--;
