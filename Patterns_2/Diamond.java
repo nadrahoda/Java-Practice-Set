@@ -11,8 +11,8 @@ public class Diamond {
     public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
     int n = s.nextInt();
-
-    int n1 = (n+1)/2;
+    // divide pattern into two halves
+    int n1 = (n+1)/2; 
     int n2 = n/2;
 
     int i =1;
