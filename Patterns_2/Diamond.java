@@ -15,7 +15,7 @@ public class Diamond {
     int n1 = (n+1)/2;  // first half n1 
     int n2 = n/2; // second part n2
 
-    int i =1;
+    int i =1; // initialize
     while(i<=n1){
         int j=1;
         while(j<=n1-i){
