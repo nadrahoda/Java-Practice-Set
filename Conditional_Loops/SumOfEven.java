@@ -16,7 +16,7 @@ public class SumOfEven {
             sum = sum+i;
             
         }
-        i=i+1;
+        i++;
         
     }
     System.out.println(sum);
