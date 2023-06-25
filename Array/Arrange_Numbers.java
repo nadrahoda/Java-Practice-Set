@@ -7,11 +7,8 @@ import java.util.Scanner;
 public class Arrange_Numbers {
 
     
-    public static int[] arrange() {
-        Scanner s = new Scanner(System.in);
-        int N = s.nextInt();
-        int arr[] = new int[N];
-
+    public static int[] arrange(int arr[], int N) {
+        
         int start = 0;
         int end = N-1;
         int value=1;
@@ -34,8 +31,9 @@ public class Arrange_Numbers {
 
     }
     public static void main(String[] args) {
-        int array[] = arrange();
-        System.out.print(array);
+        Scanner s = new Scanner(System.in);
+        int N = s.nextInt();
+        arrange(null, N);
         
     }
 
